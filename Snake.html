@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake game</title>
+    <style>
+        body {
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+            display:flex;
+            flex-direction:column;
+            background-color: rgb(28, 26, 26);
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+
+        h1{
+            color: green;
+        }
+        #score {
+            font-size: medium;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        canvas{
+            border: 6px solid darkgreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>Snake game</h1>
+    <div id="score">Score:0</div>
+    
+
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+</body>
+</html>
