@@ -19,7 +19,7 @@ body,
     display: grid;
     grid-template-columns: repeat(20, 20px);
     grid-template-rows: repeat(20, 20px);
-  margin: 5px;
+    margin: 5px;
 }
 
 .game-border-1{
@@ -88,4 +88,15 @@ body,
 
 #logo {
     position: absolute;
+}
+
+#heading{
+    color: #abb78a;
+    font-size: 60px;
+    font-weight: bolder;
+    margin: 10px 0;
+    position: fixed;
+    top: 0;
+
+    
 }
