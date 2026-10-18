@@ -19,7 +19,7 @@ body,
     display: grid;
     grid-template-columns: repeat(20, 20px);
     grid-template-rows: repeat(20, 20px);
-    margin:  5px;
+  margin: 5px;
 }
 
 .game-border-1{
